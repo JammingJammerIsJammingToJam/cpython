@@ -1267,7 +1267,7 @@ dependent.
 [clinic start generated code]*/
 
 static PyObject *
-sys_setrecursionlimit_impl(PyObject *module, int new_limit)
+sys_setrecursionlimit_impl(PyObject *module, unsigned int new_limit)
 /*[clinic end generated code: output=35e1c64754800ace input=b0f7a23393924af3]*/
 {
     PyThreadState *tstate = _PyThreadState_GET();
